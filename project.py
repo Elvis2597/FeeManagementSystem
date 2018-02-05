@@ -97,7 +97,7 @@ def search():
       try:
          obj=pickle.load(f)
          if adm==obj.admn:
-            f.close
+            f.close()
             return obj
             
             
