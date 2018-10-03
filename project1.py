@@ -31,7 +31,7 @@ class Fee:
             self.bank=raw_input('Enter Bank Name                    :')
             self.chequeno=input('Enter Cheque Number               :')
       else:
-         print'WRONG QUARTER NUMBER'
+         print'WRONG QUARTER NUMBER\n'
 
        
     
